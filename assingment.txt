@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{caption}
+
+\title{My First LaTeX Document}
+\author{Sri Lochana}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This is the introduction paragraph. Here is an inline math expression: $a^2 + b^2 = c^2$.
+
+\section{Mathematics}
+Here is a display math expression:
+\[
+\int_0^\infty e^{-x} dx = 1
+\]
+
+\section{Table Example}
+\begin{tabular}{|c|c|c|}
+\hline
+Header 1 & Header 2 & Header 3 \\
+\hline
+Row1 Col1 & Row1 Col2 & Row1 Col3 \\
+\hline
+Row2 Col1 & Row2 Col2 & Row2 Col3 \\
+\hline
+Row3 Col1 & Row3 Col2 & Row3 Col3 \\
+\hline
+\end{tabular}
+
+\section{Image Example}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{example.png}
+\caption{This is an example image.}
+\label{fig:exampleimage}
+\end{figure}
+
+As you can see in Figure~\ref{fig:exampleimage}, images can be referenced in the text.
+
+\end{document}
