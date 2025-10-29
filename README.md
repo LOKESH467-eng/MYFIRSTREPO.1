@@ -1,7 +1,7 @@
 # MYFIRSTREPO.1
 this is my first git repository
 <br>
-lokesh
+i am lokesh
 <br>
 <section c (aiml)>
 <br>
